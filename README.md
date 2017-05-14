@@ -16,6 +16,15 @@
 여튼 이 위키 공간은 공부했던 것을 리마인드 하는 역할도 하지만
 저만의 자바 명령어 옥편(?)과 같은 역할도 합니다.
 
+* * *
+
+
+## Link List
+
+1. [주석문](https://github.com/leejabba/Start-JAVA/blob/master/Remark.md)
+2. [변수](https://github.com/leejabba/Start-JAVA/blob/master/Variable.md)
+
+
 * * * 
 
 ## 문법적인 부분만 다루고 있습니다.
@@ -31,10 +40,5 @@ java 학습 환경을 만들기 위해 JDK와 이클립스를 설치하는 과�
 * * *
   
   
-
-## Link List
-
-1. [주석문](https://github.com/leejabba/Start-JAVA/blob/master/Remark.md)
-2. [변수](https://github.com/leejabba/Start-JAVA/blob/master/Variable.md)
 
 
