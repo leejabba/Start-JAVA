@@ -4,11 +4,11 @@
 
 > 변수타입 식별자명 ;
 
-변수에는 한가지의 값만 저장할 수 있으며, 가장 마지막에 담은 값만 남게 된다.
+변수에는 한가지의 값만 저장할 수 있으며, 가장 마지막에 담은 값만 남게 된다.  
 
 ## 변수의 규칙
 변수를 설정할 때 이름에 대한 규칙이나 권장사항 등이 있다. 기본적인 사항이고 룰이 어렵지 않으니 외워두는게 당연히 좋다. 하지만 반대로 외우지 않아도 된다고 생각한다. 어차피 변수 이름 설정 할 때 규칙에 어긋나게 이름을 지었다면 ~빨간펜~ 이클립스에서 친절하게 알려주기 때문이다. 기본적인 것만 알아두면 된다.
->알파벳으로 시작해야 하며 그 다음엔 숫자, 그리고 일부 특수문자(_, $)를 포함해 이름을 지어야 한다. 대소문자를 구분하니 컴파일러 에러가 나오면 체크해보자.
+>알파벳으로 시작해야 하며 그 다음엔 숫자, 그리고 일부 특수문자(_, $)를 포함해 이름을 지어야 한다. 대소문자를 구분하니 컴파일러 에러가 나오면 체크해보자.  
 
 ## 변수의 종류
 변수는 여러가지 종류의 값을 담을 수 있도록 각각 타입이 분류되어 있다. 변수의 종류는 기본형과 참조형으로 나눌 수 있다.
@@ -24,8 +24,8 @@
 
 ```java
 // 정수형 변수
-byte byteA;			// byte형 변수 선언
-byteA = 1;			// byte형 값 할당 (8 bit 값 저장 가능)
+byte byteA;	// byte형 변수 선언
+byteA = 1;	// byte형 값 할당 (8 bit 값 저장 가능)
 
 byte byteB = 1;	// byte형 변수 선언과 동시에 값 할당
 
@@ -34,7 +34,7 @@ short shortA = 1;	// short 타입 (16 bit 값 저장 가능)
 int intA = 1;		// int 타입 (32 bit 값 저장 가능)
 long longA = 1L;	// long 타입 (64 bit 값 저장 가능, 값 뒤에 'L'자를 붙여야 함)
 ```
-**정수형** 은 소숫점이 없는 정수값을 담을 수 있다. 기본적으로 int를 사용하고 있으며 long 타입 값을 설정할 때는 숫자 뒤에 'L'표시를 해줘야 한다. (대소문자 구분 없음)
+**정수형** 은 소숫점이 없는 정수값을 담을 수 있다. 기본적으로 int를 사용하고 있으며 long 타입 값을 설정할 때는 숫자 뒤에 'L'표시를 해줘야 한다. (대소문자 구분 없음)  
 
 
 
@@ -43,20 +43,20 @@ long longA = 1L;	// long 타입 (64 bit 값 저장 가능, 값 뒤에 'L'자를 
 float floatA = 1.0F;	// float 타입 (32 bit 값 저장 가능, 값 뒤에 'F'자를 붙여야 함)
 double doubleA = 1.0;	// double 타입 (64 bit 값 저장 가능)
 ```
-**실수형** 은 소숫점이 있는 실수값을 담을 수 있다. 기본적으로 double을 사용하고 있다. long과 마찬가지로 float 값을 설정할 때는 숫자 뒤에 'F'표시를 해줘야 한다. (대소문자 구분 없음)
+**실수형** 은 소숫점이 있는 실수값을 담을 수 있다. 기본적으로 double을 사용하고 있다. long과 마찬가지로 float 값을 설정할 때는 숫자 뒤에 'F'표시를 해줘야 한다. (대소문자 구분 없음)  
 
 
 
 ```java
 // 논리형 변수
-boolean booleanTrue = true;		// boolean형 변수에 참값 입력
+boolean booleanTrue = true;	// boolean형 변수에 참값 입력
 boolean booleanFalse = false;	// boolean형 변수에 거짓값 입력
 boolean booleanTrue = 1 < 0;	// boolean형 변수에 참값 입력 (비교 연산자 이용)
 boolean booleanTrue = true || false;	// boolean형 변수에 참값 입력 (논리 연산자 이용)
 boolean booleanFalse = 1 != 1;	// boolean형 변수에 거짓값 입력 (비교 연산자 이용)
 boolean booleanFalse = true && false;	// boolean형 변수에 거짓값 입력 (논리 연산자 이용)
 ```
-**논리형** 은 true(참), false(거짓)의 논리적인 값만 가질 수 있다. 기본값은 false.
+**논리형** 은 true(참), false(거짓)의 논리적인 값만 가질 수 있다. 기본값은 false.  
 
 ```java
 // 문자형 변수
@@ -64,7 +64,7 @@ char charA = 'a'	// char형 변수에 문자 a 입력
 char charB = '1'	// char형 변수에 문자 1 입력
 char charC = '안'	// char형 변수에 문자 안 입력
 ```
-**문자형** 은 하나의 문자만을 저장할 수 있다. 외따옴표로 값을 담을 수 있다.
+**문자형** 은 하나의 문자만을 저장할 수 있다. 외따옴표로 값을 담을 수 있다.  
 
 
 
@@ -81,7 +81,7 @@ char charC = '안'	// char형 변수에 문자 안 입력
 // 참조형 변수 선언
 String stringA = new String();		// 문자열 변수 설정
 
-int[] arrayA = new int[5];			// 정수형 배열 설정
+int[] arrayA = new int[5];		// 정수형 배열 설정
 String[] arrayB = new String[5];	// 문자열 배열 설정
 
 ArrayList listA = new ArrayList();	// 리스트형 변수 설정
@@ -95,21 +95,24 @@ ArrayList listA = new ArrayList();	// 리스트형 변수 설정
 String stringA = new String();
 stringA = "hi";
 
-String stringB = "hello";		// 다른 참조형 변수와는 달리 문자열을 담을 수 있는 String은 기본형 변수처럼 리터럴을 이용해 값의 주소를 바로 할당할 수 있다.
+/* 다른 참조형 변수와는 달리 문자열을 담을 수 있는 String은 
+* 기본형 변수처럼 리터럴을 이용해 값의 주소를 바로 할당할 수 있다.
+*/
+String stringB = "hello";	
 ```
 **배열** 은 연관된 데이터를 하나의 식별자명에 담기 위해 사용한다.
 ```java
 // 정수형 배열
 int[] arrayA = new int[5];		
-arrayA[0] = 1;		// 배열의 첫번째 인덱스는 0부터 시작된다.
-arrayA[1] = 2;		// 정수형 배열에는 정수 값만 담을 수 있다.
+arrayA[0] = 1;	// 배열의 첫번째 인덱스는 0부터 시작된다.
+arrayA[1] = 2;	// 정수형 배열에는 정수 값만 담을 수 있다.
 arrayA[2] = 3;
 arrayA[3] = 4;
 arrayA[4] = 5;
 
-int arrayA[] = {1, 2, 3, 4, 5};		// 배열 선언과 동시에 값을 넣을 수 있다.
+int arrayA[] = {1, 2, 3, 4, 5};	// 배열 선언과 동시에 값을 넣을 수 있다.
 
-// 문자열 배
+// 문자열 배열
 String[] arrayB = new String[5];
 arrayB[0] = "a";	// 문자열 배열에는 문자 값만 담을 수 있다.
 arrayB[1] = "b";	// 당연히 쌍따옴표로 값을 감싸야 한다.
