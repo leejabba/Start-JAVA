@@ -33,6 +33,6 @@ java 학습 환경을 만들기 위해 JDK와 이클립스를 설치하는 과�
 
 ## Link List
 
-1. [주석문] (https://github.com/leejabba/Start-JAVA/blob/master/Remark.md)
+1. [주석문](https://github.com/leejabba/Start-JAVA/blob/master/Remark.md)
 
 
