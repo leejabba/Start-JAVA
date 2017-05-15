@@ -8,9 +8,9 @@ int a = 1;
 int b = 2;
 
 if(a > b) {
-	System.out.println("a가 b보다 큽니다.");
+System.out.println("a가 b보다 큽니다.");
 } else {
-	Syste.out.println("b가 a보다 큽니다.");
+Syste.out.println("b가 a보다 큽니다.");
 }
 
 ```
