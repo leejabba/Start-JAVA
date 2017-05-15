@@ -22,6 +22,7 @@
 2. [변수](https://github.com/leejabba/Start-JAVA/blob/master/wiki/Variable.md)
 3. [반복문 for](https://github.com/leejabba/Start-JAVA/blob/master/wiki/For.md)
 4. [클래스, 메소드 그리고 인스턴스](https://github.com/leejabba/Start-JAVA/blob/master/wiki/Class.md)
+5. [조건문 if, switch](https://github.com/leejabba/Start-JAVA/blob/master/wiki/if.md)
 
 * * * 
 
