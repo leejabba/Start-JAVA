@@ -165,26 +165,26 @@ public class PeopleMain {
 
 **[소스코드_Main_get으로 값 추출 후 속성 입력]**
 ```java
-		// .get 속성을 이용해 값을 추출
-		arrayPeople.get(0).name = "김씨";
-		arrayPeople.get(0).age = 24;
-		arrayPeople.get(0).gender = "남자";
+// .get 속성을 이용해 값을 추출
+arrayPeople.get(0).name = "김씨";
+arrayPeople.get(0).age = 24;
+arrayPeople.get(0).gender = "남자";
 
-		arrayPeople.get(1).name = "이양";
-		arrayPeople.get(1).age = 34;
-		arrayPeople.get(1).gender = "여자";
+arrayPeople.get(1).name = "이양";
+arrayPeople.get(1).age = 34;
+arrayPeople.get(1).gender = "여자";
 
-		arrayPeople.get(2).name = "서군";
-		arrayPeople.get(2).age = 23;
-		arrayPeople.get(2).gender = "남자";
+arrayPeople.get(2).name = "서군";
+arrayPeople.get(2).age = 23;
+arrayPeople.get(2).gender = "남자";
 			
-		arrayPeople.get(3).name = "한군";
-		arrayPeople.get(3).age = 34;
-		arrayPeople.get(3).gender = "남자";
+arrayPeople.get(3).name = "한군";
+arrayPeople.get(3).age = 34;
+arrayPeople.get(3).gender = "남자";
 			
-		arrayPeople.get(4).name = "김양";
-		arrayPeople.get(4).age = 23;
-		arrayPeople.get(4).gender = "여자";
+arrayPeople.get(4).name = "김양";
+arrayPeople.get(4).age = 23;
+arrayPeople.get(4).gender = "여자";
 ```
 참고로 인스턴스 값 입력을 편하게 하기 위해 for문을 이용한 Scanner 기능을 이용하면 더 좋을 듯 하다.
 
@@ -195,14 +195,14 @@ public class PeopleMain {
 
 **[소스코드_Main_length로 for문을 돌려 메소드 실행]**
 ```java
-		// 코드 간소화를 위해 arrayPeople를 담을 수 있는 People 데이터타입의 변수 설정
-		People temp = new People();
+// 코드 간소화를 위해 arrayPeople를 담을 수 있는 People 데이터타입의 변수 설정
+People temp = new People();
 
-		// .length 속성을 이용해 for문의 조건식을 완성
-		for(int i = 0 ; i<arrayPeople.size() ; i++){
-			temp = arrayPeople.get(i);
-			temp.printPeople();
-		}
+// .length 속성을 이용해 for문의 조건식을 완성
+for(int i = 0 ; i<arrayPeople.size() ; i++){
+	temp = arrayPeople.get(i);
+	temp.printPeople();
+}
 ```
 코드를 실행해보면 아래와 같은 결과가 나온다.
 
