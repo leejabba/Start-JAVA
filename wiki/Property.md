@@ -104,11 +104,6 @@ People 클래스를 이용해 5명(n명) 사람의 인스턴스를 만들어 보
 
 **[소스코드_Main_add로 값 입력_단순모드]**
 ```java
-import java.util.ArrayList;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class PeopleMain {
 
 	public static void main(String[] args) {
