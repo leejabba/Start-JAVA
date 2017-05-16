@@ -82,6 +82,8 @@ public class Word {
 
 이중에서 가장 많이 사용하는 것은 add, get, size 정도. 이 세가지 속성에 대한 예시를 확인해보자.
 
+
+
 **[소스코드_People클래스]**
 ```java
 public class People {
@@ -97,9 +99,15 @@ public class People {
 ```
 
 People 클래스를 이용해 5명(n명) 사람의 인스턴스를 만들어 보자.
+
+
+
 **[소스코드_Main_add로 값 입력_단순모드]**
 ```java
 import java.util.ArrayList;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PeopleMain {
 
@@ -128,6 +136,9 @@ public class PeopleMain {
 ```
 
 코드의 효율성을 위해 위의 소스코드를 아래와 같이 바꿀 수 있다.
+
+
+
 **[소스코드_Main_add로 값 입력_for문을 이용한 모드]**
 ```java
 import java.util.ArrayList;
@@ -149,6 +160,9 @@ public class PeopleMain {
 
 ```
 이제 인스턴스의 속성 값을 입력해보도록 하자.
+
+
+
 **[소스코드_Main_get으로 값 추출 후 속성 입력]**
 ```java
 		// .get 속성을 이용해 값을 추출
@@ -176,6 +190,9 @@ public class PeopleMain {
 
 결과를 출력하기 위한 소스코드는 다음과 같다.
 
+
+
+
 **[소스코드_Main_length로 for문을 돌려 메소드 실행]**
 ```java
 		// 코드 간소화를 위해 arrayPeople를 담을 수 있는 People 데이터타입의 변수 설정
@@ -188,6 +205,9 @@ public class PeopleMain {
 		}
 ```
 코드를 실행해보면 아래와 같은 결과가 나온다.
+
+
+
 
 **[결과값]**
 ```
