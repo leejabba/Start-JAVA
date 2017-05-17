@@ -199,6 +199,17 @@ for(int i = 0 ; i<arrayPeople.size() ; i++){
 	temp.printPeople();
 }
 ```
+
+위의 코드는 향상된 for문을 사용하면 더욱 간단하게 만들 수 있다.
+
+**[소스코드_Main_향상된 for문을 돌려 메소드 실행]**
+```java
+for(People temp : arrayPeople){
+	temp.printPeople();
+}
+```
+
+
 코드를 실행해보면 아래와 같은 결과가 나온다.
 
 
